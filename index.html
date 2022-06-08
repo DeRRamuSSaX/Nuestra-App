@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title> Trivia La35</title>
+  </head>
+  <body>
+    <header>
+      <h1>Trivia para saber cuanto sabes de las materias de 4to 4ta:</h1>
+    </header>
+    <main>
+      <div class="pregunta1">
+        <h2> Cuantas materias tiene 4to 4ta?</h2>
+        <form class="" action="index.html" method="post">
+              <input type="radio" data-correcta="false" value="" name="p1"><label for="">Entre 6 y 9</label>
+              <br>
+                <input type="radio" data-correcta="false" value="" name="p1"><label for="">14</label>
+                <br>
+              <input data-correcta="true" type="radio" value="" name="p1"><label for="">11</label>
+        </form>
+      </div>
+      <div class="pregunta2">
+        <h2> Cual es el lenguaje de programacion favorito de Trini?</h2>
+        <form class="" action="index.html" method="post">
+              <input type="radio" value="" data-correcta="false" name="p2"><label for="">C</label>
+              <br>
+                <input type="radio" data-correcta="true" value="" name="p2"><label for="">JavaScript</label>
+                <br>
+              <input data-correcta="false" type="radio" name="p2"><label for="">Assembler</label>
+        </form>
+      </div>
+      <div class="pregunta3">
+        <h2> Cual es el mejor profesor de todos?</h2>
+        <form class="" action="index.html" method="post">
+              <input type="radio" value="" data-correcta="true" name="p3"><label for="">Trini</label>
+              <br>
+                <input type="radio" value="" data-correcta="false" name="p3"><label for=""> Serantes </label>
+                <br>
+              <input type="radio" data-correcta="false" name="p3"><label for=""> Jantus </label>
+        </form>
+      </div>
+      <div class="pregunta4">
+        <h2> Sobre donde esta el aula? </h2>
+        <form class="" action="index.html" method="post">
+              <input type="radio" value="" data-correcta="true" name="p4"><label for="">Sobre Lope de Vega</label>
+              <br>
+                <input type="radio" value="" data-correcta="false" name="p4"><label for=""> Sobre Marcos Sastre </label>
+                <br>
+              <input type="radio" data-correcta="false" name="p4"><label for=""> Ninguna de las anteriores </label>
+        </form>
+      </div>
+      <br>
+      <div class="Resultado">
+        <button onclick="handleClick(event)" type="button" name="button"> Enviar Resultado </button>
+
+      </div>
+    </main>
+    <script src="main.js" type="text/javascript"> </script>
+  </body>
+</html>
